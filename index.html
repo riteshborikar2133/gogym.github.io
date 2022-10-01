@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GogYm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first">
+        <div class="head">
+            <div class="logo">
+                <h1>GO-GYM</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#home">About Us</a></li>
+                    <li><a href="#home">Contact</a></li>
+                </ul>
+            </div>
+            <span class="btn" onclick="myFunction()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </span>
+        </div>
+    </div>
+    <!-- home section -->
+    <div class="slide">
+        <div class="home">
+            <span>Be Strong</span>
+            <h3>Get yourself ready</h3>
+        </div>
+    </div>
+    <!-- feature -->
+    <div class="feature" id="feature">
+        <div class="feature-head">
+            <hr>
+            <h1>Feature</h1>
+            <hr>
+        </div>
+        <div class="card">
+            <div class="c1">
+                <div class="top">
+                    <img src="https://mydecorative.com/wp-content/uploads/2018/11/unisex-gym.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Unisex Guy</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <h2>CCTV </h2>
+                    <hr>
+                </div>
+                <div class="bottom">
+                    <img src="https://www.vertexsecurity.com/wp-content/uploads/2019/05/security-camera-for-GYM.jpg"
+                        alt="">
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <img src="https://fitness-nation.net/wp-content/uploads/2020/05/Practicing-Good-Hygiene-in-the-Gym-Fitness-Nation-scaled.jpg"
+                        alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Hygiene</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Supplements -->
+    <div class="feature" id="feature">
+        <div class="feature-head">
+            <hr>
+            <h1>Supplements</h1>
+            <hr>
+        </div>
+        <div class="card">
+            <div class="c1">
+                <div class="top">
+                    <img src="https://static.toiimg.com/photo/93444759.cms" alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Healty Diet</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <h2>Wavy Protein </h2>
+                    <hr>
+                </div>
+                <div class="bottom">
+                    <img src="https://cdn.shopify.com/s/files/1/0291/3743/6771/products/PGWwithFDA_1024x1024.jpg?v=1647841922"
+                        alt="">
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <img src="https://cdn-cbpon.nitrocdn.com/CZHVXYFoToXfphZaopLkYypztRvvBldz/assets/static/optimized/rev-9ea9b14/wp-content/uploads/2020/04/28954.jpg"
+                        alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Friendly Trainer</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script>
+            var x = document.getElementsByClassName("nav");
+            let y=document.getElementsByClassName("btn");
+            y.addEventListener("click", () => {
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            })
+    </script>
+</body>
+
+</html>
