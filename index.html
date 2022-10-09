@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GogYm</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="first">
+        <div class="head">
+            <div class="logo">
+                <h1>GO-GYM</h1>
+            </div>
+            <div class="nav ">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#details">About Us</a></li>
+                    <li><a href="#home">Contact</a></li>
+                </ul>
+            </div>
+            <span class="btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </span>
+        </div>
+    </div>
+    <!-- home section -->
+    <div class="slide">
+        <div class="home">
+            <span>Be Strong</span>
+            <h3>Get yourself ready</h3>
+        </div>
+    </div>
+    <!-- feature -->
+    <div class="feature" id="feature">
+        <div class="feature-head">
+            <hr>
+            <h1>Feature</h1>
+            <hr>
+        </div>
+        <div class="card">
+            <div class="c1">
+                <div class="top">
+                    <img src="https://mydecorative.com/wp-content/uploads/2018/11/unisex-gym.jpg" alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Unisex Guy</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <h2>CCTV </h2>
+                    <hr>
+                </div>
+                <div class="bottom">
+                    <img src="https://www.vertexsecurity.com/wp-content/uploads/2019/05/security-camera-for-GYM.jpg"
+                        alt="">
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <img src="https://fitness-nation.net/wp-content/uploads/2020/05/Practicing-Good-Hygiene-in-the-Gym-Fitness-Nation-scaled.jpg"
+                        alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Hygiene</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Supplements -->
+    <div class="feature" id="feature">
+        <div class="feature-head">
+            <hr>
+            <h1>Supplements</h1>
+            <hr>
+        </div>
+        <div class="card">
+            <div class="c1">
+                <div class="top">
+                    <img src="https://static.toiimg.com/photo/93444759.cms" alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Healty Diet</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <h2>Wavy Protein </h2>
+                    <hr>
+                </div>
+                <div class="bottom">
+                    <img src="https://cdn.shopify.com/s/files/1/0291/3743/6771/products/PGWwithFDA_1024x1024.jpg?v=1647841922"
+                        alt="">
+                </div>
+            </div>
+            <div class="c1">
+                <div class="top">
+                    <img src="https://cdn-cbpon.nitrocdn.com/CZHVXYFoToXfphZaopLkYypztRvvBldz/assets/static/optimized/rev-9ea9b14/wp-content/uploads/2020/04/28954.jpg"
+                        alt="">
+                </div>
+                <div class="bottom">
+                    <h2>Friendly Trainer</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer id="details">
+        <div class="feature-head">
+            <hr>
+            <h1>Details</h1>
+            <hr>
+        </div>
+        <div class="f1">
+            <div class="cont">
+                <h2> Contact Us</h2>
+                <hr>
+                <p>
+                    <strong><i class="material-icons" style="font-size:16px">&#xe0b0;</i> Contact No. :
+                    </strong>5468XXXX <br> <br>
+                    <strong><i style="font-size:16px" class="fa">&#xf16d;</i> Follow Us :</strong> <a
+                        href="https://instagram.com/__gogym__?igshid=YmMyMTA2M2Y=" target="_blank">Go-Gym</a> <br> <br>
+                    <strong><i class="material-icons" style="font-size:16px">&#xe8b4;</i> Address: </strong>C.A.Road,
+                    Opposite Rahate Hospital, Nagpur-08
+                </p>
+                <br> <br>
+                <h3>Gym Timing:</h3>
+                <hr>
+                <br>
+                <p>
+                    <strong>Morning:</strong>5:30 AM to 10:00 AM <br> <br>
+                    <strong>Evening:</strong>6:00 PM to 11:00 PM <br>
+                </p>
+            </div>
+            <div class="loc">
+                <h2>Location</h2>
+                <hr>
+                <a href="https://maps.app.goo.gl/fdUBqoVGZvYQuifK6" target="_blank"><img src="loc.png"
+                        alt="image can't be load"></a>
+                <br> Google maps <br>
+            </div>
+        </div>
+        <div class="f2"></div>
+    </footer>
+    <div style="text-align:center; color:white; background-color: black; padding: 12px 0px;">&copy;Ritesh Borikar</div>
+    <!-- script -->
+    <script>
+        const btn = document.getElementsByClassName('btn')[0]
+        const nav = document.getElementsByClassName('nav')[0]
+        btn.addEventListener('click', () => {
+            nav.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>
